@@ -2,7 +2,7 @@ import requests
 import json
 from datetime import datetime, date
 # from prettytable import PrettyTable
-# key =AIzaSyBSr7dCqLcbRLwl83KzJJxstFqq7oeozgc
+# key =APIKEY
 # for j in search("Kreator3d", tld="com", lang="en", num=5, start=0, stop=10, pause=2.0):
 #     print(j)
 #     print(type(j))
@@ -19,8 +19,8 @@ from datetime import datetime, date
 #     print(json.loads(i))
 from googleapiclient.discovery import build
 
-my_api_key = "AIzaSyBSr7dCqLcbRLwl83KzJJxstFqq7oeozgc"  # The API_KEY you acquired
-my_cse_id = "2433b138511bfd41b"  # The search-engine-ID you created
+my_api_key = "APIKEY"  # The API_KEY you acquired
+my_cse_id = "CSEID"  # The search-engine-ID you created
 
 
 def google_search(search_term, api_key, cse_id, **kwargs):
